@@ -73,6 +73,11 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.headshot {
+    border-radius: 50%;
+    border: 10px solid #123C53;
+}
+
 header {
     text-align: center;
     color: #fff;
