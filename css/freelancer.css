@@ -16,7 +16,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #297B4A;
 }
 
 h1,
@@ -57,15 +57,15 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #297B4A;
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #28556D;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #28556D;
     background-color: #fff;
 }
 
@@ -76,7 +76,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    background: #297B4A;
 }
 
 header .container {
@@ -174,7 +174,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #297B4A;
 }
 
 @media(max-width:767px) {
@@ -244,6 +244,11 @@ section.success {
     }
 }
 
+.btn-send {
+    background-color: #AC4F39;
+    color: #fff;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -258,7 +263,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #297B4A;
     background: #fff;
 }
 
@@ -311,7 +316,7 @@ section.success {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #18bc9c;
+    color: #297B4A;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -328,7 +333,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: #AC4F39;
 }
 
 footer .footer-col {
@@ -337,7 +342,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #AC7739;
 }
 
 .btn-social {
@@ -421,7 +426,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #2c3e50;
+    background-color: #28556D;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -431,7 +436,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #2c3e50;
+    background-color: #28556D;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
