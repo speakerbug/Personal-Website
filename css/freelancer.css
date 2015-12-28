@@ -209,7 +209,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(24,188,156,.9);
+    background: #AC7739;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -338,7 +338,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #AC4F39;
+    background-color: #AC7739;
 }
 
 footer .footer-col {
@@ -402,6 +402,10 @@ footer .footer-below {
 .portfolio-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
+}
+
+.modal-title-size {
+    font-size: 2em;
 }
 
 .portfolio-modal .modal-content img {
