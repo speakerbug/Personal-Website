@@ -1,5 +1,12 @@
 # Personal Website
 
-This repository has been reset and currently only contains this README.
+This project converts a static HTML/CSS site into a Next.js 14 application using the App Router and TypeScript.
 
-Future updates will build the new site from scratch.
+## Development
+
+```bash
+npm install
+npm run dev
+```
+
+The site uses the `app/` directory with reusable components in `components/`, global styles in `styles/`, and static assets in `public/`.
