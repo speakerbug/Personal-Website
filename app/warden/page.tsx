@@ -59,6 +59,15 @@ export default function WardenPage() {
 
           <div className="card mb-4">
             <div className="card-body">
+              <h2 className="card-title">About the Warden Role</h2>
+              <p className="card-text">
+                The Warden oversees election operations in their district on Election Day, ensuring that voting runs smoothly, polling places are properly staffed, and ballots are handled securely and fairly. As Warden of District 5, I'm committed to making sure our elections remain transparent, well-run, and welcoming to all voters.
+              </p>
+            </div>
+          </div>
+
+          <div className="card mb-4">
+            <div className="card-body">
               <h2 className="card-title">About Me</h2>
               <p className="card-text">
                 For the last three years, I've had the privilege of serving as Ward Clerk for District 5, and I have been involved in helping run elections since 2014 in both Maine and Massachusetts. I have had the opportunity to wear many hats on Election Day, ranging from managing polling locations, training volunteers, and assisting voters.
@@ -93,15 +102,6 @@ export default function WardenPage() {
                   />
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="card mb-4">
-            <div className="card-body">
-              <h2 className="card-title">About the Warden Role</h2>
-              <p className="card-text">
-                The Warden oversees election operations in their district on Election Day, ensuring that voting runs smoothly, polling places are properly staffed, and ballots are handled securely and fairly. As Warden of District 5, I'm committed to making sure our elections remain transparent, well-run, and welcoming to all voters.
-              </p>
             </div>
           </div>
 
