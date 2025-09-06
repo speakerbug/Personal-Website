@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Henry Saniuk - Candidate for Warden of District 5, South Portland',
+  title: 'Henry Saniuk for Warden of District 5, South Portland',
   description: 'Learn about Henry Saniuk\'s experience as Ward Clerk for District 5 and his campaign for Warden. Committed to accessible, fair elections in South Portland.',
   keywords: ['Henry Saniuk', 'Ward Clerk', 'Warden', 'District 5', 'South Portland', 'election', 'campaign', 'accessibility'],
   authors: [{ name: 'Henry Saniuk, Jr.' }],
@@ -9,27 +9,27 @@ export const metadata = {
   publisher: 'Henry Saniuk, Jr.',
   metadataBase: new URL('https://henrysaniuk.com'),
   alternates: {
-    canonical: '/warden',
+    canonical: '/warden/',
   },
   openGraph: {
-    title: 'Henry Saniuk - Candidate for Warden of District 5, South Portland',
+    title: 'Henry Saniuk for Warden of District 5, South Portland',
     description: 'Learn about Henry Saniuk\'s experience as Ward Clerk and his commitment to accessible elections in District 5.',
     images: [
       {
         url: '/img/headshot.jpg',
         width: 1200,
         height: 630,
-        alt: 'Henry Saniuk - Candidate for Warden of District 5, South Portland',
+        alt: 'Henry Saniuk for Warden of District 5, South Portland',
       },
     ],
     type: 'website',
-    url: 'https://henrysaniuk.com/warden',
+    url: 'https://henrysaniuk.com/warden/',
     siteName: 'Henry Saniuk, Jr.',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Henry Saniuk - Candidate for Warden of District 5, South Portland',
+    title: 'Henry Saniuk for Warden of District 5, South Portland',
     description: 'Learn about Henry Saniuk\'s experience as Ward Clerk and his commitment to accessible elections in District 5.',
     images: ['/img/headshot.jpg'],
     creator: '@speakerbug',
@@ -54,7 +54,7 @@ export default function WardenPage() {
         <div className="col-lg-8">
           <h1 className="text-center mb-4">
             <span style={{ fontSize: '2.5rem', fontWeight: 'bold' }}>Henry Saniuk</span><br />
-            <span style={{ fontSize: '1.2rem', color: '#6c757d', fontWeight: 'normal' }}>Candidate for Warden of District 5, South Portland</span>
+            <span style={{ fontSize: '1.2rem', color: '#6c757d', fontWeight: 'normal' }}>for Warden of District 5, South Portland</span>
           </h1>
 
           <div className="card mb-4">
