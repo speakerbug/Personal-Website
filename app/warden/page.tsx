@@ -82,7 +82,7 @@ export default function WardenPage() {
               <div>
                 <h5>Multilingual "Vote Here" Signs</h5>
                 <p className="card-text">
-                  I worked to ensure that every polling location in South Portland now has "Vote Here" signs in four languages to make voting more accessible for all residents.
+                  I worked to ensure that every polling location in South Portland now has "Vote Here" signs in five languages to make voting more accessible for all residents.
                 </p>
                 <div className="text-center mb-3">
                   <img 
