@@ -51,7 +51,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
   };
 
-  const canonicalUrl = `https://henrysaniuk.com${pathname === '/' ? '' : pathname + '/'}`;
+  const canonicalUrl = `https://henrysaniuk.com${pathname === '/' ? '' : pathname.replace(/\/$/, '') + '/'}`;
 
   return (
     <html lang="en">
