@@ -127,7 +127,7 @@ export default function HomePage() {
             presenter: 'Presented by Facebook',
           },
           {
-            href: 'https://devpost.com/software/comfort-care',
+            href: 'https://devpost.com/software/dripp',
             imgSrc: '/img/dripp.jpg',
             imgAlt: 'Dripp',
             title: 'Dripp',
