@@ -23,6 +23,7 @@ export default function Footer({ brand, socialLinks }: FooterProps) {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={`Visit my ${link.icon} profile`}
                 >
                   <i className={`fab fa-${link.icon}`} />
                 </a>
