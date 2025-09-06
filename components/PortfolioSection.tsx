@@ -38,6 +38,7 @@ export default function PortfolioSection({ title, projects }: PortfolioSectionPr
                   alt={p.imgAlt}
                   width={700}
                   height={400}
+                  loading="lazy"
                 />
                 <div className="card-body">
                   <div className="card-title">{p.title}</div>

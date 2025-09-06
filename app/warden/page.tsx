@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Henry Saniuk for Warden of District 5, South Portland',
@@ -94,11 +95,14 @@ export default function WardenPage() {
                   I worked to ensure that every polling location in South Portland now has "Vote Here" signs in five languages to make voting more accessible for all residents.
                 </p>
                 <div className="text-center mb-3">
-                  <img 
-                    src="/img/vote-here-sign.webp" 
-                    alt="Multilingual Vote Here Sign" 
-                    className="img-fluid rounded" 
-                    style={{ maxWidth: '300px', border: '2px solid #ddd', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}
+                  <Image
+                    src="/img/vote-here-sign.webp"
+                    alt="Multilingual Vote Here Sign"
+                    className="img-fluid rounded"
+                    width={300}
+                    height={200}
+                    style={{ border: '2px solid #ddd', borderRadius: '8px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}
+                    loading="lazy"
                   />
                 </div>
               </div>

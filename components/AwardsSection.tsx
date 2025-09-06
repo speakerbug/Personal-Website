@@ -37,6 +37,7 @@ export default function AwardsSection({ title, awards }: AwardsSectionProps) {
                       alt={a.imgAlt}
                       width={75}
                       height={75}
+                      loading="lazy"
                     />
                     <h6>{a.title}</h6>
                     <div className="badge badge-pill badge-dark font-weight-normal px-3 py-2 mb-2">

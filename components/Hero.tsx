@@ -19,6 +19,7 @@ export default function Hero({ imageSrc, title, subtitle }: HeroProps) {
                 alt={title}
                 width={240}
                 height={240}
+                loading="eager"
               />
               <h1 className="page-header-title">{title}</h1>
               <p className="page-header-text">{subtitle}</p>
