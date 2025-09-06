@@ -9,7 +9,14 @@ npm install
 npm run dev
 ```
 
-The site uses the `app/` directory with reusable components in `components/`, global styles in `styles/`, and static assets in `public/`.
+The site uses the `app/` directory with reusable components in `components/`, global styles in `scss/`, and static assets in `public/`.
+
+### CSS Purging
+
+Global styles are compiled and purged of unused selectors using [PurgeCSS](https://purgecss.com/).
+
+- `npm run purge` – rebuilds `public/css/main.min.css`.
+- `npm run build` – runs the purge step automatically before the Next.js build.
 
 ## Deployment
 

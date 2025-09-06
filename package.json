@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "purge": "node scripts/purge-css.js",
+    "prebuild": "npm run purge"
   },
   "dependencies": {
     "next": "14.0.0",
@@ -16,6 +18,8 @@
   "devDependencies": {
     "@types/node": "20.5.0",
     "@types/react": "18.2.0",
+    "csso": "^5.0.5",
+    "purgecss": "^7.0.2",
     "sass": "^1.92.1",
     "typescript": "5.3.3"
   }

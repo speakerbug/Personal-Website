@@ -5,7 +5,6 @@ import { usePathname } from 'next/navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CampaignBanner from '../components/CampaignBanner';
-import '../scss/main.scss';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -58,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/img/favicon.png" />
         <link rel="canonical" href="https://henrysaniuk.com" />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="stylesheet" href="/css/main.min.css" />
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Henry Saniuk, Jr." />
