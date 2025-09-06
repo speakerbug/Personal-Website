@@ -81,19 +81,19 @@ export default function HomePage() {
             school: 'Harvard University, Extension School',
             link: 'https://extension.harvard.edu',
             degree: 'Master of Liberal Arts, Business Management',
-            period: 'May 2025',
+            period: 'Graduated May 2025',
           },
           {
             school: 'Rochester Institute of Technology',
             link: 'https://rit.edu',
             degree: 'Bachelor of Science, Business Management',
-            period: 'September 2014 - May 2019',
+            period: 'Graduated May 2019',
           },
           {
             school: 'Sharon High School',
             link: 'https://hs.sharon.k12.ma.us/',
             degree: 'Sharon, MA',
-            period: 'August 2010 - May 2014',
+            period: 'Graduated May 2014',
           },
         ]}
       />
