@@ -1,0 +1,18 @@
+.container{
+  width:100%;
+  padding-right:space(4);
+  padding-left:space(4);
+  margin-right:auto;
+  margin-left:auto;
+  @include up(sm){max-width:540px;}
+  @include up(md){max-width:720px;}
+  @include up(lg){max-width:960px;}
+  @include up(xl){max-width:1140px;}
+}
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  margin-right:-space(4);
+  margin-left:-space(4);
+}

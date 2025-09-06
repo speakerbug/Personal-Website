@@ -1,0 +1,30 @@
+.btn{
+  display:inline-block;
+  font-weight:400;
+  color:color(gray);
+  text-align:center;
+  vertical-align:middle;
+  cursor:pointer;
+  user-select:none;
+  background-color:transparent;
+  border:1px solid transparent;
+  padding:space(2) space(4);
+  font-size:map-get($font-sizes, base);
+  line-height:map-get($line-heights, normal);
+  border-radius:radius(md);
+  &:focus{ @include focus-ring(); }
+}
+
+.btn-primary{
+  color:color(white);
+  background-color:color(primary);
+  border-color:color(primary);
+  &:hover{
+    background-color:darken(color(primary),10%);
+    border-color:darken(color(primary),12%);
+  }
+  &:disabled{
+    background-color:color(primary);
+    border-color:color(primary);
+  }
+}

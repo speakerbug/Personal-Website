@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import CampaignBanner from '../components/CampaignBanner';
-import '../styles/styles.css';
+import '../scss/main.scss';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();

@@ -1,0 +1,13 @@
+.form-control{
+  display:block;
+  width:100%;
+  padding:space(2) space(3);
+  font-size:map-get($font-sizes, base);
+  line-height:map-get($line-heights, normal);
+  color:color(gray);
+  background-color:color(white);
+  background-clip:padding-box;
+  border:1px solid color(gray);
+  border-radius:radius(md);
+  @include focus-ring(0);
+}
