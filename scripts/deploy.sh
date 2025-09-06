@@ -14,12 +14,14 @@ echo "Deploying '$BUILD_DIR' to s3://$S3_BUCKET in region $AWS_REGION"
 # Sync versioned assets first with long cache lifetime
 aws s3 sync "$BUILD_DIR/_next" "s3://$S3_BUCKET/_next" \
   --cache-control "public, max-age=31536000, immutable" \
+  --acl public-read \
   --delete
 
 # Sync remaining assets with no-cache headers
 aws s3 sync "$BUILD_DIR" "s3://$S3_BUCKET" \
   --exclude "_next/*" \
   --cache-control "no-cache, no-store, must-revalidate" \
+  --acl public-read \
   --delete
 
 # Invalidate CloudFront cache
