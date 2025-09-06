@@ -6,7 +6,7 @@ import EducationSection from '../components/EducationSection';
 export const metadata = {
   title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
   description:
-    'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
+    'Full-stack web & mobile developer based in South Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
   keywords: [
     'web developer',
     'mobile developer',
@@ -31,7 +31,7 @@ export const metadata = {
   openGraph: {
     title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
     description:
-      'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
+      'Full-stack web & mobile developer based in South Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
     images: [
       {
         url: '/img/headshot.jpg',
@@ -49,7 +49,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
     description:
-      'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
+      'Full-stack web & mobile developer based in South Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
     images: ['/img/headshot.jpg'],
     creator: '@speakerbug',
   },
@@ -72,7 +72,7 @@ export default function HomePage() {
       <Hero
         imageSrc="/img/headshot.jpg"
         title="Hi, I'm Henry!"
-        subtitle="I'm a full-stack web & mobile developer based in Portland, ME."
+        subtitle="I'm a full-stack web & mobile developer based in South Portland, ME."
       />
       <PortfolioSection
         title="My Recent Work"
