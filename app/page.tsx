@@ -81,7 +81,7 @@ export default function HomePage() {
             school: 'Harvard University, Extension School',
             link: 'https://extension.harvard.edu',
             degree: 'Master of Liberal Arts, Business Management',
-            period: 'Expected Fall 2025',
+            period: 'May 2025',
           },
           {
             school: 'Rochester Institute of Technology',
