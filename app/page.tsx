@@ -114,7 +114,7 @@ export default function HomePage() {
             badge: 'Globally Highlighted Project',
             description:
               'A web app that allows family members to easily upload and share pictures, videos, audio recordings, and music for a loved one in the ICU.',
-            presenter: 'Presented by Facebook',
+            presenter: 'Presented by Meta',
           },
           {
             href: 'https://devpost.com/software/human-2-human-elrvj2',
@@ -124,7 +124,7 @@ export default function HomePage() {
             badge: 'Best in Show',
             description:
               'A Messenger bot to help refugees and immigrants fill out important documents, find jobs, and connect with a mentor.',
-            presenter: 'Presented by Facebook',
+            presenter: 'Presented by Meta',
           },
           {
             href: 'https://devpost.com/software/dripp',
