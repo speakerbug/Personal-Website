@@ -1,62 +1,15 @@
-import type { Metadata } from 'next';
+'use client';
+
 import Script from 'next/script';
+import { usePathname } from 'next/navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import CampaignBanner from '../components/CampaignBanner';
 import '../styles/styles.css';
 
-export const metadata: Metadata = {
-  title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
-  description: 'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
-  keywords: ['web developer', 'mobile developer', 'full-stack developer', 'React', 'Next.js', 'Portland ME', 'Henry Saniuk'],
-  authors: [{ name: 'Henry Saniuk, Jr.' }],
-  creator: 'Henry Saniuk, Jr.',
-  publisher: 'Henry Saniuk, Jr.',
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  metadataBase: new URL('https://henrysaniuk.com'),
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
-    description: 'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
-    images: [
-      {
-        url: '/img/headshot.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Henry Saniuk, Jr. - Full-Stack Developer',
-      },
-    ],
-    type: 'website',
-    url: 'https://henrysaniuk.com',
-    siteName: 'Henry Saniuk, Jr.',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Henry Saniuk, Jr. | Full-Stack Web & Mobile Developer',
-    description: 'Full-stack web & mobile developer based in Portland, ME. Specializing in modern web technologies, mobile apps, and award-winning projects.',
-    images: ['/img/headshot.jpg'],
-    creator: '@speakerbug',
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-};
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const pathname = usePathname();
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
@@ -131,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        {pathname !== '/warden' && <CampaignBanner />}
         <Header brand="Henry Saniuk, Jr." resumeLink="/pdf/Henry-Saniuk-Resume.pdf" />
         {children}
         <Footer
