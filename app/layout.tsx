@@ -51,11 +51,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
   };
 
+  const canonicalUrl = `https://henrysaniuk.com${pathname === '/' ? '' : pathname + '/'}`;
+
   return (
     <html lang="en">
       <head>
         <link rel="icon" href="/img/favicon.png" />
-        <link rel="canonical" href="https://henrysaniuk.com" />
+        <link rel="canonical" href={canonicalUrl} />
         <link rel="manifest" href="/manifest.json" />
         <link rel="stylesheet" href="/css/main.min.css" />
         <meta name="theme-color" content="#000000" />
