@@ -5,7 +5,7 @@
 ### Colors
 | Token | Value |
 |-------|-------|
-| blue | #0061f2 |
+| blue | #335da9 |
 | indigo | #5800e8 |
 | purple | #6900c7 |
 | pink | #e30059 |
@@ -19,8 +19,8 @@
 | black | #000 |
 | gray | #687281 |
 | gray-dark | #323f52 |
-| primary | #0061f2 |
-| secondary | #6900c7 |
+| primary | #335da9 |
+| secondary | #a3c5ff |
 | success | #00ac69 |
 | info | #00cfd5 |
 | warning | #f4a100 |
@@ -33,7 +33,7 @@
 | green-soft | #bfe5dc |
 | teal-soft | #bfe8e5 |
 | cyan-soft | #bfecf2 |
-| blue-soft | #bfd6f8 |
+| blue-soft | #a3c5ff |
 | indigo-soft | #d1c2f6 |
 | purple-soft | #d4c2ef |
 | pink-soft | #edc2d9 |
