@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     ],
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'South Portland',
+      addressLocality: 'Portland',
       addressRegion: 'ME',
       addressCountry: 'US',
     },
