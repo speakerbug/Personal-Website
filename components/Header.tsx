@@ -7,7 +7,7 @@ export type HeaderProps = {
 
 export default function Header({ brand, resumeLink }: HeaderProps) {
   return (
-    <nav className="navbar navbar-marketing navbar-expand-lg bg-white navbar-light pt-5">
+    <nav className="navbar navbar-marketing navbar-expand-lg bg-white navbar-light pt-5 pb-4">
       <div className="container">
         <Link href="/" className="navbar-brand text-dark">
           {brand}
