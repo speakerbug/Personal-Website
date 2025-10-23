@@ -53,6 +53,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   const canonicalUrl = `https://henrysaniuk.com${pathname === '/' ? '' : pathname.replace(/\/$/, '') + '/'}`;
 
+  const noIndexPrefixes = ['/calendar'];
+  const isIndexablePage = !(pathname && noIndexPrefixes.some((prefix) => pathname.startsWith(prefix)));
+  const robotsContent = isIndexablePage
+    ? 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+    : 'noindex, nofollow';
+
   return (
     <html lang="en">
       <head>
@@ -63,9 +69,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#000000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="author" content="Henry Saniuk, Jr." />
-        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-        <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="robots" content={robotsContent} />
+        <meta name="googlebot" content={robotsContent} />
+        <meta name="bingbot" content={robotsContent} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <Script
