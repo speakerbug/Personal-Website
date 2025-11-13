@@ -3,7 +3,6 @@
 import { usePathname } from 'next/navigation';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import CampaignBanner from '../components/CampaignBanner';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -93,7 +92,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <head dangerouslySetInnerHTML={{ __html: headContent }} />
       <body>
-        {pathname !== '/warden' && <CampaignBanner />}
         <Header brand="Henry Saniuk, Jr." resumeLink="/pdf/Henry-Saniuk-Resume.pdf" />
         {children}
         <Footer
